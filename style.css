@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:lightskyblue;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  border-radius: 30px;
+  
+}
+
+.container{
+  display: flex;
+  color: rgb(51, 59, 59);
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #f59c43  20%, #f59c43 40.1%);
+ 
+
+   
+  
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #b0b2b2;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+  
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+  
+  
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+  
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:#20201b;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+  
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+  
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #646261;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+ 
+}
+
+.container form .row .col .inputBox img{
+  height: 100px;
+  width:300px;
+  margin-top: 10px;
+  filter: drop-shadow(0 0 1px #554949);
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #262729;
+  color:#efe3e3;
+  margin-top: 5px;
+  cursor: pointer;
+  
+
+}
+.color{
+color:rgb(255, 0, 212)
+
+
+
+}
+
+.container form .submit-btn:hover{
+  background: #464e49;
+}
